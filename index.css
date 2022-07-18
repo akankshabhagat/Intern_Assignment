@@ -1,0 +1,471 @@
+*{
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+html{
+  font-size: 86.5%;
+  scroll-behavior: smooth;
+}
+/*--------------------------------------- declared common uses here change later if required-------------------------------------------------*/
+body{
+  --main-color:#283526;
+  --primary-color:
+  --another_h3_color:#230F0F;
+  --button-background:#FFFFFF;
+  --primary-button-background: #DC4298;
+  --background-color:font-family:#FFFFFF;
+}
+
+code {
+   font-family: 'Maven Pro', sans-serif , Monaco, Consolas, 'Courier New',
+    
+}
+
+li, a,button{
+  text-decoration:none ;
+}
+
+/* ----------------------------for all the headers ----------------------------------------------------------*/
+
+
+h3{
+ 
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 165%;
+letter-spacing: 0.5px;
+ opacity: 0, 0 ,0.8;
+
+}
+
+/*-------------------- FOR all  BUTTONS ------------------------------------------------*/
+
+.cont_btn{
+  border-color: var(--primary-button-background);
+  color: var(--primary-button-background);
+  border-radius: 6px;
+  font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+width: 120px;
+text-align: center;
+letter-spacing: 0.4px;
+
+}
+.cont_btn:hover
+{
+  background-color: var(--primary-button-background);
+  border-color: var(--primary-button-background);
+}
+
+
+/*------------------ lists css all----------------------------------------------------------*/
+
+
+/*--------------Header section------------------------------------------------------------------------------*/
+header{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 12px 3%;
+  margin-bottom: 2%;
+  
+ 
+
+}
+.logo{
+  cursor: pointer;
+  width: 108px;
+height: 60px;
+  cursor: pointer;
+  margin-right: 50%;
+  
+
+}
+/* --- for review --------------------------------------------*/
+/*.logo{
+  position: absolute;
+width: 108px;
+height: 60px;
+left: 99.53px;
+top: 35px;
+
+}*/
+
+.nav_links{
+  list-style: none;
+  
+
+}
+.nav_links li{
+  display: inline-block;
+  padding: 0 20px;
+
+}
+.nav_links li a{
+  color:var(--main-color);
+  transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+  color: #DC4298;
+  font-weight: 600;
+}
+
+
+/*-------Hero section--------------------------------------------------------------*/
+.main-hero-section{
+  padding: 0 10rem;
+  width: 100%;
+  display: flex;
+justify-content:space-around ;
+align-items: center;
+margin-bottom: 5%;
+
+}
+.head_hero{
+  font-style: normal;
+  font-weight: 500;
+font-size: 68px;
+width: 557px;
+line-height: 115%;
+margin:3rem 0;
+margin-top: 0%;
+text-transform: capitalize;
+}
+
+.head2_hero{
+font-weight: 500;
+font-size: 20px;
+line-height: 165%;
+letter-spacing: 0.5px;
+color: #230F0F;
+opacity: 0.8;
+width:552px;
+margin-top: 3%;
+margin-bottom: 10px;
+}
+
+.hero_img{
+width:60%;
+height: 60%;
+border-radius: 6px;
+padding: 10px;
+}
+.hero_right{
+  display: flex;
+  justify-content: flex-end;
+}
+.btn_l{
+margin-top: 3%;
+background-color: var(--primary-button-background);
+border-color: var(--primary-button-background);
+
+
+}
+
+
+
+/*-- content section--------------------------------------------------------------------------------*/
+.content_section{
+  padding: 0 10rem;
+  width: 100%;
+  display: flex;
+justify-content:space-between ;
+align-items: center;
+margin-bottom: 5%;
+}
+.cs-img{
+  width: 80%;
+  height:40%;
+  border-radius:10px;
+  padding: 5px;
+
+ 
+}
+.cs-left{
+  display: inline-block;
+  justify-content: flex-start;
+  margin-top: 3%;
+margin-bottom: 10px;
+}
+.cs-right{
+margin-left: 4%;
+}
+.cs-right h1{
+  font-weight: 700;
+font-size: 40px;
+line-height: 150%;
+width: 590px;
+letter-spacing: 0.4px;
+margin-bottom: 2%;
+color: #230F0F;
+}
+
+
+/*--- -------------------the grid section css----------------------------------------*/
+.grid{
+  display: grid;
+  grid-template-columns: 3px;
+  grid-template-rows: 2px;
+}
+/*--------------------------------------- grid section p tags--*/
+.grid_p{
+  
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #4D4D4D;
+}
+
+/* -------- p tag ----------------------
+p{
+  font-size: 1.8rem;
+  line-height: 150%;
+  font-style: normal;
+  font-weight: normal;
+
+}
+--*/
+
+/* -- anchor tag --*/
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* -- discover section --*/
+.discover_cls{
+  font-size: 40px;
+  padding: 0 10rem;
+  margin-bottom: 2%;  
+
+}
+.Discovery_section{
+display: flex;
+justify-content: space-between;
+}
+.show_all{
+  background-color: #FFFFFF;
+  border-color: var(--primary-button-background);
+  color:var(--primary-button-background);
+margin: 2%;
+margin-right: 9%;
+width: 9rem;
+  
+
+}
+
+/*-- Buttons-line section----*/
+.button-row{
+  display: flex;
+  justify-content:inline-block;
+  padding: 0 10rem;
+  
+}
+.button-row li{
+  list-style-type: none;
+  margin-right: 2px;
+  padding: 4px;
+  
+}
+.button-row .btn{
+  background: #FFFFFF;
+  border: 1px solid rgba(35, 15, 15, 0.2);
+  border-radius: 20px;
+  width: 150px;
+  
+}
+.button-row  .btn-row {
+background-color: var(--primary-button-background);
+color: #FFFFFF;
+border: 1px solid rgba(35, 15, 15, 0.2);
+  border-radius: 20px;
+  width: 150px;
+  padding: 6px;
+}
+
+/*---grid section----------------------------------------------*/
+.grid{
+  display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(2, 2fr) 1fr;
+grid-column-gap: 2px;
+grid-row-gap: 25px;
+margin: 140px;
+margin-top: 0;
+margin-bottom: 5px;
+margin-left: 150px;
+
+}
+.grid-one{
+  grid-area: 1 / 1 / 2 / 2;
+  height: 480px;
+width: 368px;
+border: 1px solid #ECEFF4;
+border-radius: 8px;
+z-index: 10px;
+
+
+}
+
+.grid-two{
+  grid-area: 1 / 2 / 2 / 3;
+  height: 480px;
+  width: 368px;
+  margin-right:30px;
+  border-radius: 8px;
+  z-index: 10px;
+  background-color: antiquewhite;
+ 
+}
+.grid-three{
+  grid-area: 1 / 3 / 2 / 4;
+  height: 480px;
+  width: 368px;
+  margin-left:2px;
+  border-radius: 8px;
+  z-index: 10px;
+  margin-left: 2px;
+  border: 1px solid #ECEFF4;
+}
+.grid-four{
+  grid-area: 2 / 1 / 3 / 2;
+  height: 480px;
+width: 368px;
+z-index: 10px;
+border: 1px solid #ECEFF4;
+border-radius: 8px;
+
+}
+.grid-five{
+  grid-area: 2 / 2 / 3 / 3;
+  background-color: antiquewhite;
+  height: 480px;
+width: 368px;
+z-index: 10px;
+border: 1px solid #ECEFF4;
+border-radius: 8px;
+}
+.grid-six{
+  grid-area: 2 / 3 / 3 / 4; 
+  height: 480px;
+  width: 368px;
+  border: 1px solid #ECEFF4;
+  z-index: 10px;
+  border-radius: 8px;
+  margin-left: 2px;
+}
+/*------Grid images----*/
+.grid1-img{
+  height: 193px;
+width: 368px;
+border-radius: 5px;
+
+
+
+}
+.grid-h1{
+  font-size: 29px;
+  line-height: 150%;
+  letter-spacing: 0.6px;
+letter-spacing: 0.6px;
+margin-bottom: 0;
+padding: 15px;
+padding-bottom: 3px;
+color: #4D4D4D;
+}
+.grid h3{
+  font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+padding: 15px;
+}
+.grid-btn{
+  margin:4px;
+  width: 125px;
+  padding: 12px;
+  margin-left: 10px;
+  border-color: var(--primary-button-background);
+  color: var(--primary-button-background);
+}
+/*last content section-----------------------------------------------------------------*/
+.cont-section{
+display: flex;
+align-items: center;
+width: 100%;
+justify-content: space-between;
+margin-bottom: 5%;
+padding: 0 10rem;
+}
+.cont-left-side{
+  display: inline-block;
+  justify-content: flex-start;
+  margin-top: 3%;
+margin-bottom: 10px;
+
+}
+.cont-right-side{
+  margin-left: 4%;
+}
+
+
+.arrow-btn{
+  border-radius: 20%;
+  border-style: double;
+  width: 10%;
+  height:10%;
+  padding: 5px;
+  background-color:white ;
+  margin-left: 80%;
+
+}
+
+.cont-img-one{
+  width: 80%;
+  height:40%;
+  border-radius:10px;
+  padding: 5px; 
+}
+/*---footer section---*/
+.socials{
+  display: flex;
+ justify-content: space-evenly;
+ list-style-type: none;
+ width: 120px;
+
+ 
+}
+.foot_collums ul {
+  list-style-type: none;
+  text-decoration: none;
+  
+}
+.foot_collums ul li{
+  line-height: 150%;
+  margin-bottom: 5%;
+}
+.footer{
+  margin-top: 5%;
+
+  
+}
+.footer .row{
+  margin-bottom: 5%;
+  margin-left: 10px;
+  align-items: center;
+}
+.footer_copyright{
+  font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.4px;
+color: #FFFFFF;
+background-color: black;
+width: 100%;
+height: 5%;
+display: flex;
+justify-content: center;
+padding:1%;
+}
